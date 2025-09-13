@@ -1,0 +1,15 @@
+[package]
+name = "NFTcalendarevent"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x433b60edfffb91a2926a18f3afdae78ba50d583b225a65a47209fd51f2e92161"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
